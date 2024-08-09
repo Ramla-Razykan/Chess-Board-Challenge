@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 5rem;
+}
+
+.content q {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main {
+    border: 2px solid #000;
+    width: 40%;
+    height: 56.2rem;
+    margin-top: 4rem;
+}
+
+.main-box {
+    display: flex;
+}
+
+.white {
+    width: 7rem;
+    height: 7rem;
+    background: #fff;
+}
+
+.black {
+    width: 7rem;
+    height: 7rem;
+    background: #000;
+}
